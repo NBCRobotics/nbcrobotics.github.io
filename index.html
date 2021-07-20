@@ -123,16 +123,7 @@ End Fixed Navigation
 <button class="open-button" onclick="openForm()"><i class="tf-ion-email"></i></button>
 
 <div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
-
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-
-    <button type="submit" class="btn">Submit</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqlvoow" method="post">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqlvoow" method="post" class="form-container">
         <fieldset id="fs-frm-inputs">
           <div class="form-group">
           <input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last Name" required="">
@@ -146,9 +137,11 @@ End Fixed Navigation
           <input type="hidden" name="_subject" id="email-subject" value="TecHounds Contact Form Submission">
         </fieldset>
         <div id="cf-submit">
-        <input type="submit" value="Submit" class="btn btn-transparent" id="contact-submit" >
+        <input type="submit" value="Submit" class="btn" id="contact-submit" >
         </div>
-      </form>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+
 </div>
 
 <script>
