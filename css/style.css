@@ -2397,9 +2397,9 @@ a:focus, a:hover {
 }
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
-  height: 70px;
+  height: 80px;
   line-height: 80px;  
-  width: 70px;  
+  width: 80px;  
   font-size: 2em;
   font-weight: bold;
   border-radius: 50%;
